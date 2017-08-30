@@ -14,7 +14,7 @@ class Game
         current_player = self.player_x
         no_of_moves = 1
         while no_of_moves <= 9 do
-            puts no_of_moves
+            # puts no_of_moves
             # display to start if first round, or your turn in other rounds
             if no_of_moves == 1
                 puts "#{current_player.nick} to start, where do you want to play? g1 - g9"
